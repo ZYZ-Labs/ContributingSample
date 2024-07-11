@@ -23,8 +23,8 @@
 
 将你 fork 的仓库克隆到本地：
 
-```
-bashCopy codegit clone https://github.com/你的用户名/ContributingSample.git
+```bash
+git clone https://github.com/你的用户名/ContributingSample.git
 cd ContributingSample
 ```
 
@@ -32,9 +32,7 @@ cd ContributingSample
 
 请在开始开发前创建一个新的分支：
 
-```
-bash
-Copy code
+```bash
 git checkout -b 你的分支名称
 ```
 
@@ -46,8 +44,8 @@ git checkout -b 你的分支名称
 
 将你的更改提交到本地仓库：
 
-```
-bashCopy codegit add .
+```bash
+git add .
 git commit -m "描述你的更改"
 ```
 
@@ -55,9 +53,7 @@ git commit -m "描述你的更改"
 
 将你的更改推送到 GitHub：
 
-```
-bash
-Copy code
+```bash
 git push origin 你的分支名称
 ```
 
